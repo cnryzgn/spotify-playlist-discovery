@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  overflow-y: hidden;
+}
+/**
+  Mobil görüntüde detaylar aşağıda olunca playlists listesinin en altı itemlarını
+  kapatıyor. (görünmüyor.)
+**/
